@@ -43,6 +43,8 @@ public class HexagonManager : MonoBehaviour
     public Transform m_mapParent = null;
     public int m_mapSize = 9;
 
+    public static bool m_drawDebug = false;
+
     private const int m_kEdgeCount = 6;
     private const float m_kMinDistLoS = 0.1f;
 
@@ -255,6 +257,9 @@ public class HexagonManager : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        //if (!m_drawDebug)
+        //    return;
+
         if (m_orig != null && m_dest != null)
         {
             if (m_drawAllLinesLoS)

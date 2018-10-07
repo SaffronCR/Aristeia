@@ -84,6 +84,9 @@ public class Hexagon : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        if (!HexagonManager.m_drawDebug)
+            return;
+
         // Draw hexagon.
 
         Gizmos.color = Color.black;

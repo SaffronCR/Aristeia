@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 218599377}
   - component: {fileID: 218599376}
   - component: {fileID: 218599375}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: King of the Hill Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 256646686}
   - component: {fileID: 256646688}
   - component: {fileID: 256646687}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 465023104}
   - component: {fileID: 465023103}
   - component: {fileID: 465023102}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Conquest Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 542020983}
   - component: {fileID: 542020985}
   - component: {fileID: 542020984}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 763361071}
   - component: {fileID: 763361070}
   - component: {fileID: 763361069}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Blitz Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 843764200}
   - component: {fileID: 843764199}
   - component: {fileID: 843764198}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Scorched Earth Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 908288053}
   - component: {fileID: 908288052}
   - component: {fileID: 908288051}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Edit Mode Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 1024408809}
   - component: {fileID: 1024408811}
   - component: {fileID: 1024408810}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 1099126842}
   - component: {fileID: 1099126841}
   - component: {fileID: 1099126840}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Carnage Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 1465538819}
   - component: {fileID: 1465538821}
   - component: {fileID: 1465538820}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tittle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 1529461335}
   - component: {fileID: 1529461334}
   - component: {fileID: 1529461333}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1605,7 +1605,7 @@ GameObject:
   - component: {fileID: 1535731845}
   - component: {fileID: 1535731847}
   - component: {fileID: 1535731846}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1681,7 +1681,7 @@ GameObject:
   - component: {fileID: 1578414695}
   - component: {fileID: 1578414694}
   - component: {fileID: 1578414693}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Character Mode Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1831,7 +1831,7 @@ GameObject:
   - component: {fileID: 1603530172}
   - component: {fileID: 1603530174}
   - component: {fileID: 1603530173}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1896,6 +1896,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1603530171}
   m_CullTransparentMesh: 0
+--- !u!1 &1635400444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635400446}
+  - component: {fileID: 1635400445}
+  m_Layer: 0
+  m_Name: Hexadome_bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1635400445
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635400444}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 65090aab55d02a14c8be79fa4d710dce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 29, y: 32.91}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1635400446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635400444}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1733665746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,7 +1982,7 @@ GameObject:
   - component: {fileID: 1733665750}
   - component: {fileID: 1733665749}
   - component: {fileID: 1733665748}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LoS Mode Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2029,7 +2104,7 @@ GameObject:
   - component: {fileID: 1767077393}
   - component: {fileID: 1767077395}
   - component: {fileID: 1767077394}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2105,7 +2180,7 @@ GameObject:
   - component: {fileID: 1791098339}
   - component: {fileID: 1791098338}
   - component: {fileID: 1791098337}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Assault Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2238,7 +2313,7 @@ GameObject:
   - component: {fileID: 1874874009}
   - component: {fileID: 1874874011}
   - component: {fileID: 1874874010}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2313,7 +2388,7 @@ GameObject:
   - component: {fileID: 1983881885}
   - component: {fileID: 1983881887}
   - component: {fileID: 1983881886}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2388,7 +2463,7 @@ GameObject:
   - component: {fileID: 2132188044}
   - component: {fileID: 2132188046}
   - component: {fileID: 2132188045}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
